@@ -1,0 +1,140 @@
+/* Header Light Styling */
+#light .Header {
+  width: 100%;
+  height: auto;
+  margin-top: .5rem;
+}
+
+#light .Header .Header_wrap {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  border-radius: 2rem;
+  padding-bottom: 2rem;
+  background: linear-gradient(to right, #feeefe, #e5f2fe);
+}
+
+#light .Header_wrap .Header_shift {
+  width: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: auto;
+}
+
+#light .Header_shift .Header_text {
+  width: 50%;
+  padding-top: 9rem;
+}
+
+#light .Header_text h1 {
+  width: 80%;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+#light .Header_text p {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-top: 2rem;
+  color: var(--text-color);
+}
+
+#light .Header_text .Header_content {
+  width: 60%;
+  display: flex;
+  padding-top: 4rem;
+}
+
+#light .Header_text .Header_button {
+  width: 45%;
+  height: 10vh;
+  border-radius: .5rem;
+  margin-top: 3rem;
+  background-color: var(--button-color);
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: var(--white-color);
+  border: none;
+}
+
+#light .Header_shift .Header_image {
+  width: 50%;
+  padding-top: 4rem;
+}
+
+#light .Header_image img {
+  width: 46%;
+}
+
+/* Header dark Styling */
+#dark .Header {
+  width: 100%;
+  height: auto;
+  margin-top: .5rem;
+}
+
+#dark .Header .Header_wrap {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  border-radius: 2rem;
+  padding-bottom: 2rem;
+  background: linear-gradient(to left, #3c3e56, #07102D);
+}
+
+#dark .Header_wrap .Header_shift {
+  width: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: auto;
+}
+
+#dark .Header_shift .Header_text {
+  width: 50%;
+  padding-top: 9rem;
+}
+
+#dark .Header_text h1 {
+  width: 80%;
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--white-color);
+}
+
+#dark .Header_text p {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding-top: 2rem;
+  color: var(--white-color);
+}
+
+#dark .Header_text .Header_content {
+  width: 60%;
+  display: flex;
+  padding-top: 4rem;
+}
+
+#dark .Header_text .Header_button {
+  width: 45%;
+  height: 10vh;
+  border-radius: .5rem;
+  margin-top: 3rem;
+  background-color: var(--button-color);
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: var(--white-color);
+  border: none;
+}
+
+#dark .Header_shift .Header_image {
+  width: 50%;
+  padding-top: 4rem;
+}
+
+#dark .Header_image img {
+  width: 46%;
+}

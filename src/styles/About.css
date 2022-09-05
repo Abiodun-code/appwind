@@ -1,0 +1,99 @@
+/* About light Styling */
+#light .About {
+  width: 100%;
+  height: auto;
+  margin-top: 8rem;
+}
+
+#light .About .About_wrap {
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+
+#light .About_wrap .About_shift {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#light .About_shift img {
+  width: 50%;
+}
+
+#light .About_shift .About_text {
+  width: 45%;
+  height: auto;
+  padding-top: 8rem;
+}
+
+#light .About_text h2 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: var(--button-color);
+}
+
+#light .About_text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--dark-color);
+}
+
+#light .About_text p {
+  padding-top: 2rem;
+  height: auto;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+/* About dark Styling */
+#dark .About {
+  width: 100%;
+  height: auto;
+  margin-top: 8rem;
+}
+
+#dark .About .About_wrap {
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+
+#dark .About_wrap .About_shift {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#dark .About_shift img {
+  width: 50%;
+}
+
+#dark .About_shift .About_text {
+  width: 45%;
+  height: auto;
+  padding-top: 8rem;
+}
+
+#dark .About_text h2 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: var(--button-color);
+}
+
+#dark .About_text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--white-color);
+}
+
+#dark .About_text p {
+  padding-top: 2rem;
+  height: auto;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--text-color);
+}

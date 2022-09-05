@@ -1,0 +1,101 @@
+/* About light Styling */
+#light .Manage {
+  width: 100%;
+  height: auto;
+  margin-top: 8rem;
+}
+
+#light .Manage .Manage_wrap {
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+
+#light .Manage_wrap .Manage_shift {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+#light .Manage_shift img {
+  width: 50%;
+}
+
+#light .Manage_shift .Manage_text {
+  width: 45%;
+  height: auto;
+  padding-top: 8rem;
+}
+
+#light .Manage_text h2 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: var(--button-color);
+}
+
+#light .Manage_text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--dark-color);
+}
+
+#light .Manage_text p {
+  padding-top: 2rem;
+  height: auto;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+/* About dark Styling */
+#dark .Manage {
+  width: 100%;
+  height: auto;
+  margin-top: 8rem;
+}
+
+#dark .Manage .Manage_wrap {
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+
+#dark .Manage_wrap .Manage_shift {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+#dark .Manage_shift img {
+  width: 50%;
+}
+
+#dark .Manage_shift .Manage_text {
+  width: 45%;
+  height: auto;
+  padding-top: 8rem;
+}
+
+#dark .Manage_text h2 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: var(--button-color);
+}
+
+#dark .Manage_text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--white-color);
+}
+
+#dark .Manage_text p {
+  padding-top: 2rem;
+  height: auto;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--text-color);
+}

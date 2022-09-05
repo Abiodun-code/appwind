@@ -1,0 +1,202 @@
+/* NavBar Light Styling */
+#light {
+  background-color: var(--white-color);
+}
+
+#light .NavBar {
+  width: 100%;
+  height: auto;
+}
+
+#light .NavBar.active {
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(5px);
+  backdrop-filter: saturate(180%) blur(5px);
+  -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+  position: sticky;
+  top: 0;
+}
+
+#light .NavBar .NavBar_wrap {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 .5rem 0;
+}
+
+#light .NavBar_wrap .NavBar_image {
+  width: 20%;
+  padding-top: 1.4rem;
+  height: auto;
+}
+
+#light .NavBar_image img {
+  width: 60%;
+  cursor: pointer;
+}
+
+#light .NavBar_wrap .NavBar_content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+
+#light .NavBar_content .NavBar_ul {
+  width: 65%;
+  padding-top: 1.4rem;
+}
+
+#light .NavBar_ul .NavBar_sublink {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#light .NavBar_sublink .NavBar_link {
+  font-size: 1.1rem;
+  font-weight: 550;
+  color: var(--text-color);
+}
+
+#light .NavBar_sublink .NavBar_link:hover {
+  color: var(--button-color);
+}
+
+#light .NavBar_content .NavBar_sub {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#light .NavBar_sub button {
+  width: 65%;
+  height: 10vh;
+  border-radius: .5rem;
+  background-color: var(--button-color);
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: var(--white-color);
+  border: none;
+}
+
+#light .NavBar_sub button:hover {
+  box-shadow: 0rem 0rem .2rem var(--text-color);
+}
+
+#light .NavBar_sub span {
+  width: 20%;
+  padding-top: 1rem;
+  font-size: 2.1rem;
+  color: var(--button-color);
+  cursor: pointer;
+}
+
+/* NavBar Dark Styling */
+
+#dark {
+  background: var(--dark-color);
+}
+
+#dark .NavBar {
+  width: 100%;
+  height: auto;
+}
+
+#dark .NavBar.active {
+  width: 100%;
+  height: auto;
+  background-color: rgba(29, 33, 68, 0.8) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(5px);
+  backdrop-filter: saturate(180%) blur(5px);
+  -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+  position: sticky;
+  top: 0;
+}
+
+#dark .NavBar .NavBar_wrap {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 .5rem 0;
+}
+
+#dark .NavBar_wrap .NavBar_image {
+  width: 20%;
+  padding-top: 1.4rem;
+  height: auto;
+}
+
+#dark .NavBar_image img {
+  width: 60%;
+  cursor: pointer;
+}
+
+#dark .NavBar_wrap .NavBar_content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+
+#dark .NavBar_content .NavBar_ul {
+  width: 65%;
+  padding-top: 1.4rem;
+}
+
+#dark .NavBar_ul .NavBar_sublink {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#dark .NavBar_sublink .NavBar_link {
+  font-size: 1.1rem;
+  font-weight: 550;
+  color: var(--text-color);
+}
+
+#dark .NavBar_sublink .NavBar_link:hover {
+  color: var(--button-color);
+}
+
+#dark .NavBar_content .NavBar_sub {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#dark .NavBar_sub button {
+  width: 65%;
+  height: 10vh;
+  border-radius: .5rem;
+  background-color: var(--button-color);
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: var(--white-color);
+  border: none;
+}
+
+#dark .NavBar_sub button:hover {
+  box-shadow: 0rem 0rem .2rem var(--text-color);
+}
+
+#dark .NavBar_sub span {
+  width: 20%;
+  padding-top: 1rem;
+  font-size: 2.1rem;
+  color: var(--button-color);
+  cursor: pointer;
+}

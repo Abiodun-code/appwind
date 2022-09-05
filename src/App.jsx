@@ -1,33 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import { createContext } from 'react'
+import NavBar from './component/NavBar'
+import { useState } from 'react';
+import Content from './component/Content';
+
+export const ThemeContext = createContext(null);
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [Theme, setTheme] = useState('light')
+
+  const ToggleTheme = () =>{
+   setTheme(Theme === 'light' ? 'dark' : 'light') 
+  }
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <ThemeContext.Provider value={{Theme, ToggleTheme}}>
+      <div className="App" id={Theme}>
+        <NavBar Theme={Theme} ToggleTheme={ToggleTheme} setTheme={setTheme} />
+        <Content/>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+    </ThemeContext.Provider>
   )
 }
 
