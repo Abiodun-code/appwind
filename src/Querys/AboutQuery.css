@@ -81,3 +81,135 @@
     padding-top: 3.5rem;
   }
 }
+
+/* Third Media Query */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+
+  /* About light Styling */
+  #light .About {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  #light .About .About_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .About_wrap .About_shift {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: none;
+  }
+
+  #light .About_shift img {
+    width: 100%;
+  }
+
+  #light .About_shift .About_text {
+    width: 80%;
+    height: auto;
+    padding-top: 5rem;
+    margin: auto;
+  }
+
+  /* About dark Styling */
+  #dark .About {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  #dark .About .About_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .About_wrap .About_shift {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: none;
+  }
+
+  #dark .About_shift img {
+    width: 100%;
+  }
+
+  #dark .About_shift .About_text {
+    width: 80%;
+    height: auto;
+    padding-top: 5rem;
+    margin: auto;
+  }
+}
+
+/* Forth Media Query */
+@media screen and (max-width: 768px) and (min-width: 601px) {
+
+  /* About light Styling */
+  #light .About {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  #light .About .About_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .About_wrap .About_shift {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: none;
+  }
+
+  #light .About_shift img {
+    width: 100%;
+  }
+
+  #light .About_shift .About_text {
+    width: 80%;
+    height: auto;
+    padding-top: 5rem;
+    margin: auto;
+  }
+
+  /* About dark Styling */
+  #dark .About {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  #dark .About .About_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .About_wrap .About_shift {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: none;
+  }
+
+  #dark .About_shift img {
+    width: 100%;
+  }
+
+  #dark .About_shift .About_text {
+    width: 80%;
+    height: auto;
+    padding-top: 5rem;
+    margin: auto;
+  }
+}

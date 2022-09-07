@@ -66,7 +66,7 @@
   }
 }
 
-/* First Media Query */
+/* Second Media Query */
 @media screen and (max-width: 1024px) and (min-width: 993px) {
 
   /* NavBar Light Styling */
@@ -134,8 +134,361 @@
   }
 }
 
-/* First Media Query */
+/* Third Media Query */
 @media screen and (max-width: 992px) and (min-width: 769px) {
 
   /* NavBar Light Styling */
+  #light .NavBar {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .NavBar.active {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .NavBar .NavBar_wrap {
+    width: 90%;
+  }
+
+  #light .NavBar_wrap .NavBar_image {
+    width: 25%;
+    padding-top: 1rem;
+  }
+
+  #light .NavBar_image img {
+    width: 90%;
+    cursor: pointer;
+  }
+
+  #light .NavBar_wrap .NavBar_content {
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    height: auto;
+  }
+
+  #light .NavBar_content .NavBar_ul {
+    width: 20%;
+    padding-top: 1.4rem;
+  }
+
+  #light .NavBar_ul .NavBar_sublink {
+    display: none;
+  }
+
+  #light .NavBar_ul .hamburger {
+    display: block;
+    right: 4rem;
+    top: 1.7rem;
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 100;
+  }
+
+  #light .NavBar_ul .NavBar_sublink_mobile {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: right;
+    right: 2rem;
+    top: 7rem;
+    background-color: var(--white-color);
+    width: 50%;
+    height: auto;
+    border-radius: 2rem;
+    padding: 2rem;
+  }
+
+  #light .NavBar_sublink_mobile .NavBar_link {
+    font-size: 2rem;
+    font-weight: 550;
+    text-align: center;
+    padding: 1rem;
+    color: var(--text-color);
+  }
+
+  #light .NavBar_content .NavBar_sub {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #light .NavBar_sub span {
+    width: 20%;
+    padding-top: .7rem;
+    font-size: 2.5rem;
+    color: var(--dark-color);
+    cursor: pointer;
+  }
+
+  /* NavBar dark Styling */
+  #dark .NavBar {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .NavBar.active {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .NavBar .NavBar_wrap {
+    width: 90%;
+  }
+
+  #dark .NavBar_wrap .NavBar_image {
+    width: 25%;
+    padding-top: 1rem;
+  }
+
+  #dark .NavBar_image img {
+    width: 90%;
+    cursor: pointer;
+  }
+
+  #dark .NavBar_wrap .NavBar_content {
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    height: auto;
+  }
+
+  #dark .NavBar_content .NavBar_ul {
+    width: 20%;
+    padding-top: 1.4rem;
+  }
+
+  #dark .NavBar_ul .NavBar_sublink {
+    display: none;
+  }
+
+  #dark .NavBar_ul .hamburger {
+    display: block;
+    right: 4rem;
+    top: 1.7rem;
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: var(--white-color);
+  }
+
+  #dark .NavBar_ul .NavBar_sublink_mobile {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: right;
+    right: 2rem;
+    top: 7rem;
+    background-color: var(--dark-color);
+    width: 50%;
+    height: auto;
+    border-radius: 2rem;
+    padding: 2rem;
+  }
+
+  #dark .NavBar_sublink_mobile .NavBar_link {
+    font-size: 2rem;
+    font-weight: 550;
+    text-align: center;
+    padding: 1rem;
+    color: var(--text-color);
+  }
+
+  #dark .NavBar_content .NavBar_sub {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #dark .NavBar_sub span {
+    width: 20%;
+    padding-top: .7rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+}
+
+/* Forth Media Query */
+@media screen and (max-width: 768px) and (min-width: 601px) {
+
+  /* NavBar Light Styling */
+  #light .NavBar {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .NavBar.active {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .NavBar .NavBar_wrap {
+    width: 80%;
+    margin: auto;
+  }
+
+  #light .NavBar_wrap .NavBar_image {
+    width: 25%;
+    padding-top: 1rem;
+  }
+
+  #light .NavBar_image img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  #light .NavBar_wrap .NavBar_content {
+    width: 65%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    height: auto;
+  }
+
+  #light .NavBar_content .NavBar_ul {
+    width: 20%;
+    padding-top: 1.4rem;
+  }
+
+  #light .NavBar_ul .NavBar_sublink {
+    display: none;
+  }
+
+  #light .NavBar_ul .hamburger {
+    display: block;
+    right: 4rem;
+    top: 1.7rem;
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 100;
+  }
+
+  #light .NavBar_ul .NavBar_sublink_mobile {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: right;
+    right: 2rem;
+    top: 7rem;
+    background-color: var(--white-color);
+    width: 50%;
+    height: auto;
+    border-radius: 2rem;
+    padding: 2rem;
+  }
+
+  #light .NavBar_sublink_mobile .NavBar_link {
+    font-size: 2rem;
+    font-weight: 550;
+    text-align: center;
+    padding: 1rem;
+    color: var(--text-color);
+  }
+
+  #light .NavBar_content .NavBar_sub {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #light .NavBar_sub span {
+    width: 20%;
+    padding-top: .7rem;
+    font-size: 2.5rem;
+    color: var(--dark-color);
+    cursor: pointer;
+  }
+
+  /* NavBar dark Styling */
+  #dark .NavBar {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .NavBar.active {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .NavBar .NavBar_wrap {
+    width: 80%;
+    margin: auto;
+  }
+
+  #dark .NavBar_wrap .NavBar_image {
+    width: 25%;
+    padding-top: 1rem;
+  }
+
+  #dark .NavBar_image img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  #dark .NavBar_wrap .NavBar_content {
+    width: 65%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    height: auto;
+  }
+
+  #dark .NavBar_content .NavBar_ul {
+    width: 20%;
+    padding-top: 1.4rem;
+  }
+
+  #dark .NavBar_ul .NavBar_sublink {
+    display: none;
+  }
+
+  #dark .NavBar_ul .hamburger {
+    display: block;
+    right: 4rem;
+    top: 1.7rem;
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: var(--white-color);
+  }
+
+  #dark .NavBar_ul .NavBar_sublink_mobile {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: right;
+    right: 2rem;
+    top: 7rem;
+    background-color: var(--dark-color);
+    width: 50%;
+    height: auto;
+    border-radius: 2rem;
+    padding: 2rem;
+  }
+
+  #dark .NavBar_sublink_mobile .NavBar_link {
+    font-size: 2rem;
+    font-weight: 550;
+    text-align: center;
+    padding: 1rem;
+    color: var(--text-color);
+  }
+
+  #dark .NavBar_content .NavBar_sub {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #dark .NavBar_sub span {
+    width: 20%;
+    padding-top: .7rem;
+    font-size: 2.5rem;
+    color: var(--white-color);
+    cursor: pointer;
+  }
 }

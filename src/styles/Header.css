@@ -40,12 +40,6 @@
   color: var(--text-color);
 }
 
-#light .Header_text .Header_content {
-  width: 60%;
-  display: flex;
-  padding-top: 4rem;
-}
-
 #light .Header_text .Header_button {
   width: 45%;
   height: auto;

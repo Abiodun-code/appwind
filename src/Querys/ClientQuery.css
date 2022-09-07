@@ -165,3 +165,123 @@
     color: var(--text-color);
   }
 }
+
+/* Third Media Query */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+
+  /* Client light styling */
+  #light .Client {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+    background: rgb(228 242 254);
+  }
+
+  #light .Client .Client_wrap {
+    width: 99%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .Client_wrap .Client_list {
+    width: 95%;
+    margin: auto;
+    height: auto;
+  }
+
+  #light .Client_list .Client_card {
+    width: 47%;
+    height: auto;
+  }
+
+  /* Client dark styling */
+  #dark .Client {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  #dark .Client .Client_wrap {
+    width: 99%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .Client_wrap .Client_list {
+    width: 95%;
+    margin: auto;
+    height: auto;
+  }
+
+  #dark .Client_list .Client_card {
+    width: 47%;
+    height: auto;
+  }
+}
+
+/* Forth Media Query */
+@media screen and (max-width: 768px) and (min-width: 601px) {
+
+  /* Client light styling */
+  #light .Client {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+    background: rgb(228 242 254);
+  }
+
+  #light .Client .Client_wrap {
+    width: 99%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .Client_wrap .Client_list {
+    width: 95%;
+    margin: auto;
+    height: auto;
+  }
+
+  #light .Client_list .Client_card {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .Client_card_bottom .Client_bottom_text {
+    width: 70%;
+    padding-top: 2rem;
+  }
+
+  /* Client dark styling */
+  #dark .Client {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  #dark .Client .Client_wrap {
+    width: 99%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .Client_wrap .Client_list {
+    width: 95%;
+    margin: auto;
+    height: auto;
+  }
+
+  #dark .Client_list .Client_card {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .Client_card_bottom .Client_bottom_text {
+    width: 70%;
+    padding-top: 2rem;
+  }
+}

@@ -31,7 +31,7 @@ const NavBar = ({Theme, ToggleTheme}) => {
         <div className="NavBar_content">
           <div className="NavBar_ul">
             {/* These is all about the navlink if it's desktop NavBar_sublink else NavBar_sublink_mobile */}
-            <ul className={hamburger ? 'NavBar_sublink_mobile' : 'NavBar_sublink'} onClick={()=>sethamburger(!false)}>
+            <ul className={hamburger ? 'NavBar_sublink_mobile' : 'NavBar_sublink'} onClick={hamburger}>
               <Link className='NavBar_link' to={'/'}>Features</Link>
               <Link className='NavBar_link' to={'/'}>About</Link>
               <Link className='NavBar_link' to={'/'}>Pricing</Link>

@@ -173,3 +173,155 @@
     color: var(--white-color);
   }
 }
+
+/* Third Media Query */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+
+  /* Download light Styling */
+  #light .Download .Download_wrap {
+    width: 95%;
+    height: auto;
+  }
+
+  #light .Download_wrap .Download_shift {
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+
+  #light .Download_shift .Download_text {
+    width: 80%;
+    margin: auto;
+  }
+
+  #light .Download_shift .Download_image {
+    width: 100%;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #light .Download_image .Download_image1 {
+    position: relative;
+    z-index: 0;
+  }
+
+  #light .Download_image .Download_image2 {
+    position: relative;
+    right: 0rem;
+    z-index: 0;
+  }
+
+  /* Download dark Styling */
+  #dark .Download .Download_wrap {
+    width: 95%;
+    height: auto;
+  }
+
+  #dark .Download_wrap .Download_shift {
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+
+  #dark .Download_shift .Download_text {
+    width: 80%;
+    margin: auto;
+  }
+
+  #dark .Download_shift .Download_image {
+    width: 100%;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #dark .Download_image .Download_image1 {
+    position: relative;
+    z-index: 0;
+  }
+
+  #dark .Download_image .Download_image2 {
+    position: relative;
+    right: 0rem;
+    z-index: 0;
+  }
+}
+
+/* Forth Media Query */
+@media screen and (max-width: 768px) and (min-width: 601px) {
+
+  /* Download light Styling */
+  #light .Download .Download_wrap {
+    width: 95%;
+    height: auto;
+  }
+
+  #light .Download_wrap .Download_shift {
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+
+  #light .Download_shift .Download_text {
+    width: 80%;
+    margin: auto;
+  }
+
+  #light .Download_shift .Download_image {
+    width: 100%;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #light .Download_image .Download_image1 {
+    position: relative;
+    z-index: 0;
+  }
+
+  #light .Download_image .Download_image2 {
+    position: relative;
+    right: 0rem;
+    z-index: 0;
+  }
+
+  /* Download dark Styling */
+  #dark .Download .Download_wrap {
+    width: 95%;
+    height: auto;
+  }
+
+  #dark .Download_wrap .Download_shift {
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+
+  #dark .Download_shift .Download_text {
+    width: 80%;
+    margin: auto;
+  }
+
+  #dark .Download_shift .Download_image {
+    width: 100%;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #dark .Download_image .Download_image1 {
+    position: relative;
+    z-index: 0;
+  }
+
+  #dark .Download_image .Download_image2 {
+    position: relative;
+    right: 0rem;
+    z-index: 0;
+  }
+}
