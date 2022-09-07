@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Manage.css'
+import '../Querys/ManageQuery.css'
 
 const Manage = () => {
   return (

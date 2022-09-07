@@ -1,0 +1,83 @@
+/* First Media Query */
+@media screen and (max-width: 1200px) and (min-width: 1023px) {
+
+  /* About light Styling */
+  #light .About {
+    width: 100%;
+    height: auto;
+    margin-top: 8rem;
+  }
+
+  #light .About .About_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .About_shift .About_text {
+    width: 45%;
+    height: auto;
+    padding-top: 3.5rem;
+  }
+
+  /* About dark Styling */
+  #dark .About {
+    width: 100%;
+    height: auto;
+    margin-top: 8rem;
+  }
+
+  #dark .About .About_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .About_shift .About_text {
+    width: 45%;
+    height: auto;
+    padding-top: 3.5rem;
+  }
+}
+
+/* Second Media Query */
+@media screen and (max-width: 1024px) and (min-width: 993px) {
+
+  /* About light Styling */
+  #light .About {
+    width: 100%;
+    height: auto;
+    margin-top: 8rem;
+  }
+
+  #light .About .About_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .About_shift .About_text {
+    width: 45%;
+    height: auto;
+    padding-top: 3.5rem;
+  }
+
+  /* About dark Styling */
+  #dark .About {
+    width: 100%;
+    height: auto;
+    margin-top: 8rem;
+  }
+
+  #dark .About .About_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .About_shift .About_text {
+    width: 45%;
+    height: auto;
+    padding-top: 3.5rem;
+  }
+}

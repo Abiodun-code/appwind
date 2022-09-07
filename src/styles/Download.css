@@ -1,0 +1,190 @@
+/* Download light Styling */
+#light .Download {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+}
+
+#light .Download .Download_wrap {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  border-radius: 2rem;
+  background: linear-gradient(to right, #feeefe, #e5f2fe);
+}
+
+#light .Download_wrap .Download_shift {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+
+#light .Download_shift .Download_text {
+  width: 50%;
+  padding-top: 4rem;
+}
+
+#light .Download_text h2 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: var(--button-color);
+}
+
+#light .Download_text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-top: 1rem;
+  color: var(--dark-color);
+}
+
+#light .Download_text p {
+  width: 90%;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-top: 1rem;
+  color: var(--text-color);
+}
+
+#light .Download_shift .Download_image {
+  width: 50%;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#light .Download_image .Download_image1 {
+  position: relative;
+  z-index: 10;
+}
+
+#light .Download_image .Download_image2 {
+  position: relative;
+  right: -5rem;
+  z-index: 0;
+}
+
+#light .Download_text .Download_buttons {
+  width: 70%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#light .Download_buttons .Download_button1 {
+  width: 45%;
+  background: var(--button-color);
+  border: none;
+  border-radius: .6rem;
+  padding: .5rem;
+  cursor: pointer;
+  display: flex;
+}
+
+#light .Download_button1 svg {
+  width: 30%;
+  float: left;
+  color: var(--white-color);
+}
+
+#light .Download_button1 p {
+  padding-top: .6rem;
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--white-color);
+}
+
+/* Download dark Styling */
+#dark .Download {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+}
+
+#dark .Download .Download_wrap {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  border-radius: 2rem;
+  background: linear-gradient(to left, #3c3e56, #07102D);
+}
+
+#dark .Download_wrap .Download_shift {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+#dark .Download_shift .Download_text {
+  width: 50%;
+  padding-top: 4rem;
+}
+
+#dark .Download_text h2 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: var(--button-color);
+}
+
+#dark .Download_text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-top: 1rem;
+  color: var(--white-color);
+}
+
+#dark .Download_text p {
+  width: 90%;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-top: 1rem;
+  color: var(--text-color);
+}
+
+#dark .Download_shift .Download_image {
+  width: 50%;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#dark .Download_image .Download_image1 {
+  position: relative;
+  z-index: 10;
+}
+
+#dark .Download_image .Download_image2 {
+  position: relative;
+  right: -5rem;
+  z-index: 0;
+}
+
+#dark .Download_text .Download_buttons {
+  width: 70%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#dark .Download_buttons .Download_button1 {
+  width: 45%;
+  background: var(--dark-color);
+  border: none;
+  border-radius: .6rem;
+  padding: .5rem;
+  display: flex;
+  cursor: pointer;
+}
+
+#dark .Download_button1 svg {
+  width: 30%;
+  float: left;
+  color: var(--white-color);
+}
+
+#dark .Download_button1 p {
+  padding-top: .6rem;
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--white-color);
+}

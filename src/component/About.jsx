@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/About.css'
+import '../Querys/AboutQuery.css'
 
 const About = () => {
   return (

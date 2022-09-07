@@ -19,3 +19,15 @@
 .App {
   font-family: 'Quicksand', sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--text-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--dark-color);
+}

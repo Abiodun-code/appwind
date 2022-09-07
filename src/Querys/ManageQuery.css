@@ -1,0 +1,83 @@
+/* First Media Query */
+@media screen and (max-width: 1200px) and (min-width: 1023px) {
+
+  /* Manage light Styling */
+  #light .Manage {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  #light .Manage .Manage_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .Manage_shift .Manage_text {
+    width: 45%;
+    height: auto;
+    padding-top: 4.5rem;
+  }
+
+  /* Manage dark Styling */
+  #dark .Manage {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  #dark .Manage .Manage_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .Manage_shift .Manage_text {
+    width: 45%;
+    height: auto;
+    padding-top: 4.5rem;
+  }
+}
+
+/* Seond Media Query */
+@media screen and (max-width: 1024px) and (min-width: 993px) {
+
+  /* Manage light Styling */
+  #light .Manage {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  #light .Manage .Manage_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .Manage_shift .Manage_text {
+    width: 45%;
+    height: auto;
+    padding-top: 4.5rem;
+  }
+
+  /* Manage dark Styling */
+  #dark .Manage {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  #dark .Manage .Manage_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .Manage_shift .Manage_text {
+    width: 45%;
+    height: auto;
+    padding-top: 4.5rem;
+  }
+}

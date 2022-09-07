@@ -1,0 +1,93 @@
+/* First Media Query */
+@media screen and (max-width: 1200px) and (min-width: 1023px) {
+
+  /* Question light styling */
+  #light .Question {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    background: var(--white-color);
+  }
+
+  #light .Question .Question_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .Question_card_shift .Question_card {
+    width: 49%;
+    border-radius: 1rem;
+    height: auto;
+    padding: 2rem 2rem 0 2rem;
+    border: .1rem solid var(--button-color);
+  }
+
+  /* Question dark styling */
+  #dark .Question {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  #dark .Question .Question_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .Question_card_shift .Question_card {
+    width: 49%;
+    border-radius: 1rem;
+    height: auto;
+    padding: 2rem 2rem 0 2rem;
+    border: .1rem solid var(--button-color);
+  }
+}
+
+/* Second Media Query */
+@media screen and (max-width: 1024px) and (min-width: 993px) {
+
+  /* Question light styling */
+  #light .Question {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    background: var(--white-color);
+  }
+
+  #light .Question .Question_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .Question_card_shift .Question_card {
+    width: 49%;
+    border-radius: 1rem;
+    height: auto;
+    padding: 2rem 2rem 0 2rem;
+    border: .1rem solid var(--button-color);
+  }
+
+  /* Question dark styling */
+  #dark .Question {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  #dark .Question .Question_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .Question_card_shift .Question_card {
+    width: 49%;
+    border-radius: 1rem;
+    height: auto;
+    padding: 2rem 2rem 0 2rem;
+    border: .1rem solid var(--button-color);
+  }
+}

@@ -1,0 +1,159 @@
+/* First Media Query */
+@media screen and (max-width: 1200px) and (min-width: 1023px) {
+
+  /* Contact light styling */
+  #light .Contact {
+    width: 100%;
+    height: auto;
+
+  }
+
+  #light .Contact .Contact_wrap {
+    width: 95%;
+    height: auto;
+  }
+
+  #light .Contact_wrap form {
+    width: 85%;
+    height: auto;
+  }
+
+  #light form .form_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #light .form_header .form_name {
+    width: 48%;
+    height: 8vh;
+  }
+
+  #light .form_header .form_email {
+    width: 48%;
+    height: 8vh;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    border: .1rem solid #9fa6b3;
+  }
+
+  /* Contact dark styling */
+  #dark .Contact {
+    width: 100%;
+    height: auto;
+
+  }
+
+  #dark .Contact .Contact_wrap {
+    width: 95%;
+    height: auto;
+  }
+
+  #dark .Contact_wrap form {
+    width: 85%;
+    height: auto;
+  }
+
+  #dark form .form_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #dark .form_header .form_name {
+    width: 48%;
+    height: 8vh;
+  }
+
+  #dark .form_header .form_email {
+    width: 48%;
+    height: 8vh;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    border: .1rem solid #9fa6b3;
+  }
+}
+
+/* Second Media Query */
+@media screen and (max-width: 1024px) and (min-width: 993px) {
+
+  /* Contact light styling */
+  #light .Contact {
+    width: 100%;
+    height: auto;
+
+  }
+
+  #light .Contact .Contact_wrap {
+    width: 95%;
+    height: auto;
+  }
+
+  #light .Contact_wrap form {
+    width: 85%;
+    height: auto;
+  }
+
+  #light form .form_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #light .form_header .form_name {
+    width: 48%;
+    height: 8vh;
+  }
+
+  #light .form_header .form_email {
+    width: 48%;
+    height: 8vh;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    border: .1rem solid #9fa6b3;
+  }
+
+  /* Contact dark styling */
+  #dark .Contact {
+    width: 100%;
+    height: auto;
+
+  }
+
+  #dark .Contact .Contact_wrap {
+    width: 95%;
+    height: auto;
+  }
+
+  #dark .Contact_wrap form {
+    width: 85%;
+    height: auto;
+  }
+
+  #dark form .form_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #dark .form_header .form_name {
+    width: 48%;
+    height: 8vh;
+  }
+
+  #dark .form_header .form_email {
+    width: 48%;
+    height: 8vh;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    border: .1rem solid #9fa6b3;
+  }
+}

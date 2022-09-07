@@ -1,0 +1,167 @@
+/* First Media Query */
+@media screen and (max-width: 1200px) and (min-width: 1023px) {
+
+  /* Client light styling */
+  #light .Client {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+    background: rgb(228 242 254);
+  }
+
+  #light .Client .Client_wrap {
+    width: 99%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .Client_list .Client_card {
+    width: 31%;
+    height: auto;
+    background: var(--white-color);
+    padding: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin: .654rem;
+  }
+
+  #light .Client_card_bottom .Client_bottom_text {
+    width: 75%;
+    padding-top: .5rem;
+  }
+
+  #light .Client_bottom_text h1 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  #light .Client_bottom_text p {
+    font-size: .9rem;
+    color: var(--text-color);
+  }
+
+  /* Client dark styling */
+  #dark .Client {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  #dark .Client .Client_wrap {
+    width: 99%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .Client_list .Client_card {
+    width: 31%;
+    height: auto;
+    padding: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin: .654rem;
+  }
+
+  #dark .Client_card_bottom .Client_bottom_text {
+    width: 75%;
+    padding-top: .5rem;
+  }
+
+  #dark .Client_bottom_text h1 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  #dark .Client_bottom_text p {
+    font-size: .9rem;
+    color: var(--text-color);
+  }
+}
+
+/* Second Media Query */
+@media screen and (max-width: 1024px) and (min-width: 993px) {
+
+  /* Client light styling */
+  #light .Client {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+    background: rgb(228 242 254);
+  }
+
+  #light .Client .Client_wrap {
+    width: 99%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .Client_list .Client_card {
+    width: 31%;
+    height: auto;
+    background: var(--white-color);
+    padding: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin: .654rem;
+  }
+
+  #light .Client_card_bottom .Client_bottom_text {
+    width: 75%;
+    padding-top: .5rem;
+  }
+
+  #light .Client_bottom_text h1 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  #light .Client_bottom_text p {
+    font-size: .9rem;
+    color: var(--text-color);
+  }
+
+  /* Client dark styling */
+  #dark .Client {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  #dark .Client .Client_wrap {
+    width: 99%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .Client_list .Client_card {
+    width: 31%;
+    height: auto;
+    padding: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin: .654rem;
+  }
+
+  #dark .Client_card_bottom .Client_bottom_text {
+    width: 75%;
+    padding-top: .5rem;
+  }
+
+  #dark .Client_bottom_text h1 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  #dark .Client_bottom_text p {
+    font-size: .9rem;
+    color: var(--text-color);
+  }
+}

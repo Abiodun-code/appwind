@@ -1,0 +1,47 @@
+/* Sponsore light Styling */
+#light .Sponsore {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+}
+
+#light .Sponsore .Sponsore_wrap {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 4rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, #feeefe, #e5f2fe);
+}
+
+#light .Sponsore_wrap .Sponsore_img {
+  width: 17%;
+  height: auto;
+
+}
+
+/* Sponsore dark Styling */
+#dark .Sponsore {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+}
+
+#dark .Sponsore .Sponsore_wrap {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 4rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, #feeefe, #e5f2fe);
+}
+
+#dark .Sponsore_wrap .Sponsore_img {
+  width: 17%;
+  height: auto;
+
+}

@@ -48,13 +48,14 @@
 
 #light .Header_text .Header_button {
   width: 45%;
-  height: 10vh;
+  height: auto;
   border-radius: .5rem;
   margin-top: 3rem;
   background-color: var(--button-color);
   font-size: 1.2rem;
   font-weight: 400;
   cursor: pointer;
+  padding: 1.5rem;
   color: var(--white-color);
   border: none;
 }
@@ -65,7 +66,8 @@
 }
 
 #light .Header_image img {
-  width: 46%;
+  width: auto;
+  height: auto;
 }
 
 /* Header dark Styling */
@@ -119,13 +121,14 @@
 
 #dark .Header_text .Header_button {
   width: 45%;
-  height: 10vh;
+  height: auto;
   border-radius: .5rem;
   margin-top: 3rem;
   background-color: var(--button-color);
   font-size: 1.2rem;
   font-weight: 400;
   cursor: pointer;
+  padding: 1.5rem;
   color: var(--white-color);
   border: none;
 }
@@ -136,5 +139,6 @@
 }
 
 #dark .Header_image img {
-  width: 46%;
+  width: auto;
+  height: auto;
 }

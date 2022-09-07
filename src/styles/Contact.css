@@ -1,0 +1,231 @@
+/* Contact light styling */
+#light .Contact {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  border-radius: .3rem;
+
+}
+
+#light .Contact .Contact_wrap {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+#light .Contact_wrap .Contact_shift {
+  width: 100%;
+}
+
+#light .Contact_shift h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+#light .Contact_shift p {
+  width: 60%;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-top: 1rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+#light .Contact_wrap form {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 4rem;
+  border-radius: 1rem;
+  border: .1rem solid var(--button-color);
+  box-shadow: 0 0 2rem var(--text-color);
+}
+
+#light form .form_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#light .form_header .form_name {
+  width: 45%;
+  height: 8vh;
+  border-radius: .4rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-left: 1rem;
+  border: .1rem solid #9fa6b3;
+}
+
+#light .form_header .form_email {
+  width: 45%;
+  height: 8vh;
+  border-radius: .4rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-left: 1rem;
+  border: .1rem solid #9fa6b3;
+}
+
+#light form .form_sub {
+  margin-top: 2rem;
+  width: 100%;
+  height: 8vh;
+  border-radius: .4rem;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  border: .1rem solid #9fa6b3;
+}
+
+#light form .form_text {
+  margin-top: 2rem;
+  width: 100%;
+  height: 20vh;
+  border-radius: .4rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  border: .1rem solid #9fa6b3;
+}
+
+#light form .form_button {
+  margin-top: 2rem;
+  width: 30%;
+  height: auto;
+  padding: 1rem;
+  border-radius: .4rem;
+  text-align: right;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  border: .1rem solid #9fa6b3;
+  color: var(--white-color);
+  background: var(--button-color);
+  cursor: pointer;
+}
+
+/* Contact dark styling */
+#dark .Contact {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  border-radius: .3rem;
+
+}
+
+#dark .Contact .Contact_wrap {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+#dark .Contact_wrap .Contact_shift {
+  width: 100%;
+}
+
+#dark .Contact_shift h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--white-color);
+}
+
+#dark .Contact_shift p {
+  width: 60%;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-top: 1rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+#dark .Contact_wrap form {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 4rem;
+  border-radius: 1rem;
+  background: rgb(7 16 45);
+}
+
+#dark form .form_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#dark .form_header .form_name {
+  width: 45%;
+  height: 8vh;
+  border-radius: .4rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-left: 1rem;
+  border: .1rem solid #9fa6b3;
+  background: var(--dark-color);
+  color: var(--text-color);
+}
+
+#dark .form_header .form_email {
+  width: 45%;
+  height: 8vh;
+  border-radius: .4rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-left: 1rem;
+  border: .1rem solid #9fa6b3;
+  background: var(--dark-color);
+  color: var(--text-color);
+}
+
+#dark form .form_sub {
+  margin-top: 2rem;
+  width: 100%;
+  height: 8vh;
+  border-radius: .4rem;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  border: .1rem solid #9fa6b3;
+  background: var(--dark-color);
+  color: var(--text-color);
+}
+
+#dark form .form_text {
+  margin-top: 2rem;
+  width: 100%;
+  height: 20vh;
+  border-radius: .4rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  border: .1rem solid #9fa6b3;
+  background: var(--dark-color);
+  color: var(--text-color);
+}
+
+#dark form .form_button {
+  margin-top: 2rem;
+  width: 30%;
+  height: auto;
+  padding: 1rem;
+  border-radius: .4rem;
+  text-align: right;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  border: .1rem solid #9fa6b3;
+  color: var(--white-color);
+  background: var(--button-color);
+  cursor: pointer;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Award.css'
+import '../Querys/AwardQuery.css'
 import { Link } from 'react-router-dom'
 
 const Award = () => {
@@ -48,7 +49,7 @@ const Award = () => {
                 <img src="/assets/person-2.png" alt="" />
                 <img src="/assets/person-3.png" alt="" />
               </div>
-              <p>Best of trendy</p>
+              <p>Best trendy</p>
             </div>
             <h1>Lorem ipsum dolor sit amet, consec adipiscing elit In vulputate vitae massa eu dapibus ligula.</h1>
             <Link to={'/'} className='Award_button'>
@@ -71,7 +72,7 @@ const Award = () => {
                 <img src="/assets/person-2.png" alt="" />
                 <img src="/assets/person-3.png" alt="" />
               </div>
-              <p>online payment</p>
+              <p>online pay</p>
             </div>
             <h1>Lorem ipsum dolor sit amet, consec adipiscing elit In vulputate vitae massa eu dapibus ligula.</h1>
             <Link to={'/'} className='Award_button'>

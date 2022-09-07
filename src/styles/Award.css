@@ -46,9 +46,10 @@
 }
 
 #light .Award_card .Award_card_top {
-  width: 60%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  display: none;
 }
 
 #light .Award_card_top .Award_svg {
@@ -66,23 +67,24 @@
 }
 
 #light .Award_card .Award_card_head {
-  width: 100%;
+  width: 95%;
   display: flex;
   margin-top: 1rem;
   justify-content: space-between;
 }
 
 #light .Award_card_head .Award_head_img {
-  width: 40%;
+  width: 45%;
   display: flex;
 }
 
 #light .Award_card_head p {
   padding-top: .1rem;
+  font-size: 1.2rem;
 }
 
 #light .Award_card h1 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
   width: 100%;
   padding-top: 2rem;
@@ -95,7 +97,7 @@
   justify-content: start;
   margin-top: 2rem;
   color: var(--button-color);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 /* Award dark Styling */
@@ -147,7 +149,7 @@
 }
 
 #dark .Award_card .Award_card_top {
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -168,24 +170,25 @@
 }
 
 #dark .Award_card .Award_card_head {
-  width: 100%;
+  width: 95%;
   display: flex;
   margin-top: 1rem;
   justify-content: space-between;
 }
 
 #dark .Award_card_head .Award_head_img {
-  width: 40%;
+  width: 45%;
   display: flex;
 }
 
 #dark .Award_card_head p {
   padding-top: .1rem;
+  font-size: 1.2rem;
   color: var(--white-color);
 }
 
 #dark .Award_card h1 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 500;
   width: 100%;
   padding-top: 2rem;
@@ -199,5 +202,5 @@
   justify-content: start;
   margin-top: 2rem;
   color: var(--button-color);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }

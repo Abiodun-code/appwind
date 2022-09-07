@@ -1,0 +1,141 @@
+/* First Media Query */
+@media screen and (max-width: 1200px) and (min-width: 1023px) {
+
+  /* NavBar Light Styling */
+  #light .NavBar {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .NavBar.active {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .NavBar .NavBar_wrap {
+    width: 90%;
+  }
+
+  #light .NavBar_wrap .NavBar_image {
+    width: 20%;
+    padding-top: 1.3rem;
+  }
+
+  #light .NavBar_wrap .NavBar_content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  #light .NavBar_content .NavBar_ul {
+    width: 65%;
+    padding-top: 1.3rem;
+  }
+
+  /* NavBar dark Styling */
+  #dark .NavBar {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .NavBar.active {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .NavBar .NavBar_wrap {
+    width: 90%;
+  }
+
+  #dark .NavBar_wrap .NavBar_image {
+    width: 20%;
+    padding-top: 1.3rem;
+  }
+
+  #dark .NavBar_wrap .NavBar_content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  #dark .NavBar_content .NavBar_ul {
+    width: 65%;
+    padding-top: 1.3rem;
+  }
+}
+
+/* First Media Query */
+@media screen and (max-width: 1024px) and (min-width: 993px) {
+
+  /* NavBar Light Styling */
+  #light .NavBar {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .NavBar.active {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .NavBar .NavBar_wrap {
+    width: 90%;
+  }
+
+  #light .NavBar_wrap .NavBar_image {
+    width: 20%;
+    padding-top: 1.3rem;
+  }
+
+  #light .NavBar_wrap .NavBar_content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  #light .NavBar_content .NavBar_ul {
+    width: 65%;
+    padding-top: 1.3rem;
+  }
+
+  /* NavBar dark Styling */
+  #dark .NavBar {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .NavBar.active {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .NavBar .NavBar_wrap {
+    width: 90%;
+  }
+
+  #dark .NavBar_wrap .NavBar_image {
+    width: 20%;
+    padding-top: 1.3rem;
+  }
+
+  #dark .NavBar_wrap .NavBar_content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  #dark .NavBar_content .NavBar_ul {
+    width: 65%;
+    padding-top: 1.3rem;
+  }
+}
+
+/* First Media Query */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+
+  /* NavBar Light Styling */
+}
