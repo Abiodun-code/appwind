@@ -23,7 +23,7 @@ function App() {
       {/* id={Theme} works when the toggleTheme is true */}
       <div className="App" id={Theme}>
         <NavBar Theme={Theme} ToggleTheme={ToggleTheme} setTheme={setTheme} />
-        <Content/>
+        <Content Theme={Theme} />
         {/* ScrollToTop is a react dependencies for scrolling */}
         <ScrollToTop
          smooth

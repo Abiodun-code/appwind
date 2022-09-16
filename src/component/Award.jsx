@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Award = () => {
   return (
-    <div className='Award'>
+    <div className='Award' data-aos="zoom-in" data-aos-duration="2000">
       <div className="Award_wrap">
         <h1>Our Recent Awards</h1>
         <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</p>

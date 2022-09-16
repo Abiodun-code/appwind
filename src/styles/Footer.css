@@ -1,0 +1,249 @@
+/* Footer light Styling */
+#light .Footer {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  background: #E4F2FE;
+}
+
+#light .Footer .Footer_wrap {
+  width: 92%;
+  margin: auto;
+  height: auto;
+}
+
+#light .Footer_wrap .Footer_shift {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5rem;
+}
+
+#light .Footer_shift .Footer_left {
+  width: 30%;
+  height: auto;
+}
+
+#light .Footer_left .left_image {
+  width: 100%;
+  height: auto;
+}
+
+#light .left_image img {
+  width: 45%;
+  height: auto;
+}
+
+#light .Footer_left .left_text {
+  width: 100%;
+  height: auto;
+}
+
+#light .left_text p {
+  padding-top: 2rem;
+  width: 100%;
+  height: auto;
+  font-size: 1.4rem;
+  color: var(--text-color);
+}
+
+#light .Footer_shift .Footer_right {
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+}
+
+#light .Footer_right .right_first {
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#light .right_first .right_card {
+  width: 50%;
+  height: auto;
+}
+
+#light .right_card .right_h1 {
+  width: 100%;
+  height: auto;
+}
+
+#light .right_h1 h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+#light .right_card .right_text {
+  width: 100%;
+  padding-top: 2rem;
+  height: auto;
+}
+
+#light .right_text .right_link {
+  display: block;
+  font-size: 1.4rem;
+  color: var(--text-color);
+  padding-bottom: 1rem;
+}
+
+#light .right_text .right_link:hover {
+  color: var(--button-color);
+}
+
+#light .Footer_right .right_second {
+  width: 35%;
+  height: auto;
+}
+
+#light .right_second .second_h1 {
+  width: 100%;
+  height: auto;
+}
+
+#light .second_h1 h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+#light .right_second .second_text {
+  width: 100%;
+  height: auto;
+}
+
+#light .second_text p {
+  width: 100%;
+  padding-top: 2rem;
+  font-size: 1.4rem;
+  color: var(--text-color);
+}
+
+/* Footer dark Styling */
+#dark .Footer {
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  background: rgb(7 16 45);
+}
+
+#dark .Footer .Footer_wrap {
+  width: 92%;
+  margin: auto;
+  height: auto;
+}
+
+#dark .Footer_wrap .Footer_shift {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5rem;
+}
+
+#dark .Footer_shift .Footer_left {
+  width: 30%;
+  height: auto;
+}
+
+#dark .Footer_left .left_image {
+  width: 100%;
+  height: auto;
+}
+
+#dark .left_image img {
+  width: 45%;
+  height: auto;
+}
+
+#dark .Footer_left .left_text {
+  width: 100%;
+  height: auto;
+}
+
+#dark .left_text p {
+  padding-top: 2rem;
+  width: 100%;
+  height: auto;
+  font-size: 1.4rem;
+  color: var(--text-color);
+}
+
+#dark .Footer_shift .Footer_right {
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+}
+
+#dark .Footer_right .right_first {
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#dark .right_first .right_card {
+  width: 50%;
+  height: auto;
+}
+
+#dark .right_card .right_h1 {
+  width: 100%;
+  height: auto;
+}
+
+#dark .right_h1 h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--white-color);
+}
+
+#dark .right_card .right_text {
+  width: 100%;
+  padding-top: 2rem;
+  height: auto;
+}
+
+#dark .right_text .right_link {
+  display: block;
+  font-size: 1.4rem;
+  color: var(--text-color);
+  padding-bottom: 1rem;
+}
+
+#dark .right_text .right_link:hover {
+  color: var(--button-color);
+}
+
+#dark .Footer_right .right_second {
+  width: 35%;
+  height: auto;
+}
+
+#dark .right_second .second_h1 {
+  width: 100%;
+  height: auto;
+}
+
+#dark .second_h1 h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--white-color);
+}
+
+#dark .right_second .second_text {
+  width: 100%;
+  height: auto;
+}
+
+#dark .second_text p {
+  width: 100%;
+  padding-top: 2rem;
+  font-size: 1.4rem;
+  color: var(--text-color);
+}

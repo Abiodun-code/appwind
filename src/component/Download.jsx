@@ -4,7 +4,7 @@ import '../Querys/DownloadQuery.css'
 
 const Download = () => {
   return (
-    <div className='Download'>
+    <div className='Download' data-aos="zoom-in" data-aos-duration="2000">
       <div className='Download_wrap'>
         <div className="Download_shift">
           <div className="Download_text">

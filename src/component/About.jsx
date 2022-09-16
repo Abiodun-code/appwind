@@ -4,7 +4,7 @@ import '../Querys/AboutQuery.css'
 
 const About = () => {
   return (
-    <div className='About'>
+    <div className='About' data-aos="zoom-in" data-aos-duration="2000">
       <div className="About_wrap">
         <div className="About_shift">
           <img src="/assets/about-image-1.svg" alt="" />

@@ -213,3 +213,69 @@
     padding-top: 5rem;
   }
 }
+
+/* Fifth Media Query */
+@media screen and (max-width: 600px) and (min-width: 223px) {
+
+  /* Manage light Styling */
+  #light .Manage {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  #light .Manage .Manage_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .Manage_wrap .Manage_shift {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+
+  #light .Manage_shift img {
+    width: 100%;
+  }
+
+  #light .Manage_shift .Manage_text {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding-top: 5rem;
+  }
+
+  /* Manage dark Styling */
+  #dark .Manage {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  #dark .Manage .Manage_wrap {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .Manage_wrap .Manage_shift {
+    width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+
+  #dark .Manage_shift img {
+    width: 100%;
+  }
+
+  #dark .Manage_shift .Manage_text {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding-top: 5rem;
+  }
+}

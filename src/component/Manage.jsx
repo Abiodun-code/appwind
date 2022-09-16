@@ -4,7 +4,7 @@ import '../Querys/ManageQuery.css'
 
 const Manage = () => {
   return (
-    <div className='Manage'>
+    <div className='Manage' data-aos="zoom-in" data-aos-duration="2000">
       <div className="Manage_wrap">
         <div className="Manage_shift">
           <img src="/assets/about-image-2.svg" alt="" />

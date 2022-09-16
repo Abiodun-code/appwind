@@ -4,12 +4,13 @@ import Award from './Award'
 import Clients from './Clients'
 import Contact from './Contact'
 import Download from './Download'
+import Footer from './Footer'
 import Header from './Header'
 import Manage from './Manage'
 import Question from './Question'
 import Sponsore from './Sponsore'
 
-const Content = () => {
+const Content = ({Theme}) => {
   return (
     <>
     <Header/>
@@ -21,6 +22,7 @@ const Content = () => {
     <Question/>
     <Sponsore/>
     <Contact/>
+    <Footer Theme={Theme}/>
     </>
   )
 }

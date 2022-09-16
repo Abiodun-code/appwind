@@ -4,7 +4,7 @@ import '../Querys/QuestionQuery.css'
 
 const Question = () => {
   return (
-    <div className='Question'>
+    <div className='Question' data-aos="zoom-in" data-aos-duration="2000">
       <div className="Question_wrap">
         <div className="Question_shift">
           <h1>Frequently Asked Questions</h1>

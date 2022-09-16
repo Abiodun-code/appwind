@@ -1,0 +1,633 @@
+/* First Media Query */
+@media screen and (max-width: 1200px) and (min-width: 1023px) {
+  /* Footer light Styling */
+
+  #light .Footer {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .Footer .Footer_wrap {
+    width: 92%;
+  }
+
+  #light .Footer_wrap .Footer_shift {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .right_h1 h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  #light .right_text .right_link {
+    font-size: 1.2rem;
+  }
+
+  #light .second_h1 h1 {
+    font-size: 1.3rem;
+  }
+
+  #light .second_text p {
+    font-size: 1.2rem;
+  }
+
+  /* Footer dark Styling */
+
+  #dark .Footer {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .Footer .Footer_wrap {
+    width: 92%;
+  }
+
+  #dark .Footer_wrap .Footer_shift {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .right_h1 h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  #dark .right_text .right_link {
+    font-size: 1.2rem;
+  }
+
+  #dark .second_h1 h1 {
+    font-size: 1.3rem;
+  }
+
+  #dark .second_text p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Second Media Query */
+@media screen and (max-width: 1024px) and (min-width: 993px) {
+  /* Footer light Styling */
+
+  #light .Footer {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .Footer .Footer_wrap {
+    width: 92%;
+  }
+
+  #light .Footer_wrap .Footer_shift {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .right_h1 h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  #light .right_text .right_link {
+    font-size: 1.2rem;
+  }
+
+  #light .second_h1 h1 {
+    font-size: 1.3rem;
+  }
+
+  #light .second_text p {
+    font-size: 1.2rem;
+  }
+
+  /* Footer dark Styling */
+
+  #dark .Footer {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .Footer .Footer_wrap {
+    width: 92%;
+  }
+
+  #dark .Footer_wrap .Footer_shift {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .right_h1 h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  #dark .right_text .right_link {
+    font-size: 1.2rem;
+  }
+
+  #dark .second_h1 h1 {
+    font-size: 1.3rem;
+  }
+
+  #dark .second_text p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Third Media Query */
+@media screen and (max-width: 992px) and (min-width: 769px) {
+  /* Footer light Styling */
+
+  #light .Footer {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .Footer .Footer_wrap {
+    width: 92%;
+  }
+
+  #light .Footer_wrap .Footer_shift {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  #light .Footer_shift .Footer_left {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .left_image img {
+    width: 35%;
+    height: auto;
+  }
+
+  #light .left_text p {
+    padding-top: 2rem;
+    text-align: center;
+    width: 60%;
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  #light .Footer_shift .Footer_right {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-left: 0rem;
+  }
+
+  #light .Footer_right .right_first {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 3rem;
+  }
+
+  #light .right_first .right_card {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  #light .right_h1 h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+
+  #light .right_text .right_link {
+    font-size: 1.9rem;
+  }
+
+  #light .Footer_right .right_second {
+    width: 100%;
+    text-align: center;
+  }
+
+  #light .second_h1 h1 {
+    font-size: 2.2rem;
+  }
+
+  #light .second_text p {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+  }
+
+  /* Footer dark Styling */
+
+  #dark .Footer {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .Footer .Footer_wrap {
+    width: 92%;
+  }
+
+  #dark .Footer_wrap .Footer_shift {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  #dark .Footer_shift .Footer_left {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .left_image img {
+    width: 35%;
+    height: auto;
+  }
+
+  #dark .left_text p {
+    padding-top: 2rem;
+    text-align: center;
+    width: 60%;
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  #dark .Footer_shift .Footer_right {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-left: 0rem;
+  }
+
+  #dark .Footer_right .right_first {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 3rem;
+  }
+
+  #dark .right_first .right_card {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  #dark .right_h1 h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+
+  #dark .right_text .right_link {
+    font-size: 1.9rem;
+  }
+
+  #dark .Footer_right .right_second {
+    width: 100%;
+    text-align: center;
+  }
+
+  #dark .second_h1 h1 {
+    font-size: 2.2rem;
+  }
+
+  #dark .second_text p {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/* Forth Media Query */
+@media screen and (max-width: 768px) and (min-width: 601px) {
+  /* Footer light Styling */
+
+  #light .Footer {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .Footer .Footer_wrap {
+    width: 92%;
+  }
+
+  #light .Footer_wrap .Footer_shift {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  #light .Footer_shift .Footer_left {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .left_image img {
+    width: 35%;
+    height: auto;
+  }
+
+  #light .left_text p {
+    padding-top: 2rem;
+    text-align: center;
+    width: 60%;
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  #light .Footer_shift .Footer_right {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-left: 0rem;
+  }
+
+  #light .Footer_right .right_first {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 3rem;
+  }
+
+  #light .right_first .right_card {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  #light .right_h1 h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+
+  #light .right_text .right_link {
+    font-size: 1.9rem;
+  }
+
+  #light .Footer_right .right_second {
+    width: 100%;
+    text-align: center;
+  }
+
+  #light .second_h1 h1 {
+    font-size: 2.2rem;
+  }
+
+  #light .second_text p {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+  }
+
+  /* Footer dark Styling */
+
+  #dark .Footer {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .Footer .Footer_wrap {
+    width: 92%;
+  }
+
+  #dark .Footer_wrap .Footer_shift {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  #dark .Footer_shift .Footer_left {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .left_image img {
+    width: 35%;
+    height: auto;
+  }
+
+  #dark .left_text p {
+    padding-top: 2rem;
+    text-align: center;
+    width: 60%;
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  #dark .Footer_shift .Footer_right {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-left: 0rem;
+  }
+
+  #dark .Footer_right .right_first {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 3rem;
+  }
+
+  #dark .right_first .right_card {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  #dark .right_h1 h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+
+  #dark .right_text .right_link {
+    font-size: 1.9rem;
+  }
+
+  #dark .Footer_right .right_second {
+    width: 100%;
+    text-align: center;
+  }
+
+  #dark .second_h1 h1 {
+    font-size: 2.2rem;
+  }
+
+  #dark .second_text p {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/* Fifth Media Query */
+@media screen and (max-width: 600px) and (min-width: 223px) {
+
+  /* Footer light Styling */
+
+  #light .Footer {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .Footer .Footer_wrap {
+    width: 92%;
+  }
+
+  #light .Footer_wrap .Footer_shift {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  #light .Footer_shift .Footer_left {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .left_image img {
+    width: 35%;
+    height: auto;
+  }
+
+  #light .left_text p {
+    padding-top: 2rem;
+    text-align: center;
+    width: 95%;
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  #light .Footer_shift .Footer_right {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-left: 0rem;
+  }
+
+  #light .Footer_right .right_first {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 3rem;
+  }
+
+  #light .right_first .right_card {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  #light .right_h1 h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+
+  #light .right_text .right_link {
+    font-size: 1.9rem;
+  }
+
+  #light .Footer_right .right_second {
+    width: 100%;
+    text-align: center;
+  }
+
+  #light .second_h1 h1 {
+    font-size: 2.2rem;
+  }
+
+  #light .second_text p {
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+  }
+
+  /* Footer dark Styling */
+
+  #dark .Footer {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .Footer .Footer_wrap {
+    width: 92%;
+  }
+
+  #dark .Footer_wrap .Footer_shift {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  #dark .Footer_shift .Footer_left {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .left_image img {
+    width: 35%;
+    height: auto;
+  }
+
+  #dark .left_text p {
+    padding-top: 2rem;
+    text-align: center;
+    width: 95%;
+    font-size: 2rem;
+    margin: auto;
+  }
+
+  #dark .Footer_shift .Footer_right {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-left: 0rem;
+  }
+
+  #dark .Footer_right .right_first {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 3rem;
+  }
+
+  #dark .right_first .right_card {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  #dark .right_h1 h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+
+  #dark .right_text .right_link {
+    font-size: 1.9rem;
+  }
+
+  #dark .Footer_right .right_second {
+    width: 100%;
+    text-align: center;
+  }
+
+  #dark .second_h1 h1 {
+    font-size: 2.2rem;
+  }
+
+  #dark .second_text p {
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+  }
+}

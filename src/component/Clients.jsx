@@ -4,7 +4,7 @@ import '../Querys/ClientQuery.css'
 
 const Clients = () => {
   return (
-    <div className='Client'>
+    <div className='Client' data-aos="zoom-in" data-aos-duration="2000">
       <div className="Client_wrap">
         <div className="Client_shift">
           <h1>What Clients Says?</h1>

@@ -5,7 +5,7 @@ import '../Querys/HeaderQuery.css'
 const Header = () => {
   
   return (
-    <div className='Header'>
+    <div className='Header' data-aos="zoom-in" data-aos-duration="2000">
      <div className="Header_wrap">
       <div className="Header_shift">
         <div className="Header_text">

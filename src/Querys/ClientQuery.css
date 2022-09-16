@@ -285,3 +285,88 @@
     padding-top: 2rem;
   }
 }
+
+/* Forth Media Query */
+@media screen and (max-width: 600px) and (min-width: 223px) {
+
+  /* Client light styling */
+  #light .Client {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+    background: rgb(228 242 254);
+  }
+
+  #light .Client .Client_wrap {
+    width: 99%;
+    height: auto;
+    margin: auto;
+  }
+
+  #light .Client_shift p {
+    width: 100%;
+    margin: auto;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding-top: 1rem;
+    text-align: center;
+    color: var(--text-color);
+  }
+
+  #light .Client_wrap .Client_list {
+    width: 100%;
+    margin: auto;
+    height: auto;
+  }
+
+  #light .Client_list .Client_card {
+    width: 100%;
+    height: auto;
+  }
+
+  #light .Client_card_bottom .Client_bottom_text {
+    width: 70%;
+    padding-top: .5rem;
+  }
+
+  /* Client dark styling */
+  #dark .Client {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  #dark .Client .Client_wrap {
+    width: 99%;
+    height: auto;
+    margin: auto;
+  }
+
+  #dark .Client_shift p {
+    width: 100%;
+    margin: auto;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding-top: 1rem;
+    text-align: center;
+    color: var(--text-color);
+  }
+
+  #dark .Client_wrap .Client_list {
+    width: 100%;
+    margin: auto;
+    height: auto;
+  }
+
+  #dark .Client_list .Client_card {
+    width: 100%;
+    height: auto;
+  }
+
+  #dark .Client_card_bottom .Client_bottom_text {
+    width: 70%;
+    padding-top: .5rem;
+  }
+}

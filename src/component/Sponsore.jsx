@@ -4,7 +4,7 @@ import '../Querys/SponsoreQuery.css'
 
 const Sponsore = () => {
   return (
-    <div className='Sponsore'>
+    <div className='Sponsore' data-aos="zoom-in" data-aos-duration="2000">
       <div className="Sponsore_wrap">
         <img className='Sponsore_img' src="/assets/uideck.svg" alt="" />
         <img className='Sponsore_img' src="/assets/tailgrids.svg" alt="" />
