@@ -7,10 +7,12 @@ All in one React and CSS site template for - App and Software sites. Comes with 
 
 - [Abiodun-code](https://github.com/Abiodun-code)
 
+## preview live
+https://abiodun-appwind-123.netlify.app/
 
 ## Contributing
 
-Contributions are always welcome!
+Contributions are always welcome and am also available for open source and Contributing to project!
 
 ## Run Locally
 
