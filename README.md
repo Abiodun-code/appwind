@@ -1,4 +1,3 @@
-
 # Appwind
 
 All in one React and CSS site template for - App and Software sites. Comes with all essential components, clean design and everything you can expect from a complete app landing page.
